@@ -1,0 +1,789 @@
+body{
+    height: 100vh;
+    margin: 0%;
+    border: 0;
+
+    
+    
+}
+.navbar{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 70px;
+    display:flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    
+    
+    padding-left: 20px; 
+    padding-right:20px;
+    
+}
+.navbar_left{
+    display: flex;
+    justify-self: start;
+    align-self: center;
+    gap: 15px;
+    
+
+}
+.navbar_left1{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.uber_h1{
+    font-size: 30px;
+    position: relative;
+    bottom: 5px;
+    color: white;
+}
+p{
+    display: inline;
+}
+.navbar_search_bar{
+    border-radius: 50px;
+    
+}
+.navbar_searchbar{
+    display: inline;
+    
+}
+.navbar_button{
+    border-radius: 45px;
+    background:rgb(219, 217, 217) ;
+    border: transparent;
+    
+}
+.navbar_button1{
+    border: none;
+    border-radius: 30px;
+    background:rgb(219, 217, 217);
+    border: transparent;
+
+    
+}
+.signup_button{
+    border-radius: 45px;
+    background:rgb(219, 217, 217) ;
+    text-decoration: none;
+}
+.navbar_right4{
+    text-decoration: none;
+    color: black;
+}
+.navbar_right{
+    display: flex;
+    justify-self: end;
+    align-self: center;
+    gap: 15px;
+    
+    
+}
+.navbar_right1{
+     font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+                               /*firstpage*/
+
+
+
+.firstpagess{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 50px;
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+.mapp{
+    border-radius: 15px;
+}
+
+.firstpage_h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+    position: relative;
+    bottom: 90px;
+}
+
+.firstpage_text1{
+    border:none;
+    border-radius: 10px;
+    background:rgb(219, 217, 217) ;
+    border: transparent;
+    width: 313px;
+    height: 40px;
+    font-size: 18px;
+}
+.firstpage_details{
+    position: relative;
+    
+
+}
+
+.firstpage_forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 5px;
+}
+
+
+
+
+.bi-send-fill{
+     position: relative;
+    right: 30px;
+
+}
+.firstpage_text2{
+     border:none;
+    border-radius: 10px;
+    background:rgb(219, 217, 217) ;
+    border: transparent;
+      width: 313px;
+    height: 40px;
+    font-size: 18px;
+}
+.date{
+     border:none;
+    border-radius: 10px;
+    background:rgb(219, 217, 217) ;
+    border: transparent;
+     width: 155px;
+    height: 40px;
+    font-size: 18px;
+        color: rgb(135, 123, 123);
+
+    
+}
+.time{
+     border:none;
+    border-radius: 10px;
+    background:rgb(219, 217, 217) ;
+    border: transparent;
+     width: 155px;
+    height: 40px;
+    font-size: 18px;
+    color: rgb(135, 123, 123);
+}
+.roe{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    
+}
+.firstpage_section1{
+    background-color: rgb(255, 255, 255);
+}
+                                
+                                     /*card*/
+
+
+
+.cards{
+    height: 50vh;
+    display: flex;
+    justify-content:space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    flex-wrap: wrap;
+    gap:px;
+    
+    
+}
+.card1{
+    width:356px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.097);
+    align-items: center;
+    height: 120px;
+    padding: 9px;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+.cardcontent1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+   
+
+    
+    
+}
+.cardimage{
+     display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+
+
+.img{
+    width: 80px;
+    height:70px;
+    
+    
+}
+.cardp1{
+    font-size: smaller;
+    
+    
+}
+
+.h4{
+    margin: 0;
+}
+.cardbutton1{
+    border-radius: 15px;
+   position: relative;
+   top: 5px;
+   border: none;
+   border-color: black;
+   
+}
+.cardbutton1:hover{
+    background-color: rgb(159, 159, 159);
+}
+.cardheading{
+    position: relative;
+    left:60px ;
+    
+}
+h6{
+    font-size: xx-large;
+    margin: 10px;
+}
+
+                        /*login recent activity*/
+
+
+
+.activity{
+    padding-left: 60px;
+        padding-right: 60px;
+        width: 800px;
+       
+}
+.activity_div{
+     
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    align-items: center;
+    width: 1130px;
+    
+    border-radius: 15px;
+}
+.activity_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.actvity_image{
+     display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.img{
+    width: 200px;
+    height:150px;}
+
+    .activity_p1{
+        
+    font-size: larger;
+    position: relative;
+bottom: 30px;
+    }
+    .h4{
+    margin: 0;
+}
+.activity_button1{
+    border-radius: 7px;
+   position: relative;
+   top: 5px;
+   border: none;
+   border-color: black;
+   width:180px;
+   height: 40px;
+   background-color: #070707;
+   color: #e4e0e0;
+   
+}
+.activity_button1:hover{
+    background-color: #2a252595;
+}
+
+    .activity_imge{
+        width: 400px;
+        height: 399px;
+    }
+    .activity_h1{
+          font-size: 40px;
+    font-weight: 500;
+    color: black;
+    position: relative;
+    bottom: 70px;
+    
+    }
+    .activity_link{
+        position: relative;
+        top: 14px;
+         border-color: #ffffff;
+         width: 250px;
+        
+        
+    }
+    
+    a{
+        color: rgba(7, 7, 7, 0.766);
+        text-decoration: none;
+    }
+                            /*planing and benefits*/
+
+.plan_div{
+    height:450px;
+    width:1130px;
+    padding-left: 60px;
+        padding-right: 60px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+}
+.plan_heading{
+        padding-left: 60px;
+}
+
+
+.plan_div1{
+    height:400px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgb(211, 134, 134);
+    
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    padding: 9px;
+
+}
+.plandiv1_carimg{
+    position:relative;
+    left:344px;
+    top: 60px;
+    width:500px;
+    height: 300px;
+    
+}
+.plandiv1_content{
+    position: relative;
+    bottom: 90px;
+}
+.plandiv1_h1{
+    font-size: 40px;
+    position: relative;
+    bottom:120px;
+}
+para{
+    position: relative;
+    bottom: 60px;
+    font-size: 25px;
+}
+.row{
+     display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    position: relative;
+    bottom: 40px;
+}
+.button_next{
+      width: 320px;
+      height: 40px;
+      border-radius: 7px;
+      border-color: black;
+      background-color: #070707;
+      color: rgb(211, 212, 212);
+      font-size: 15px;
+      position: relative;
+      bottom: 30px;
+}
+.button_next:hover{
+    background-color: #2a252593;
+}
+
+.plandiv2{
+    height: 300px;
+    width: 300px;
+display:flex ;
+justify-content: space-between;
+align-items: center;
+gap:10px;
+}
+.plandiv2_link{
+     position: relative;
+        top: 14px;
+         border-color: #ffffff;
+         width: 80px;
+         
+        
+}
+.plandiv2_h1{
+    height: 300px;
+    width: 300px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+    
+    
+     
+
+.plandiv2_benefits{
+      position: relative;
+    bottom: 150px;
+    left:30px;
+}
+
+
+                                      /*drvive*/
+.drive{
+    padding-left: 60px;
+        padding-right: 60px;
+width: 1130px;
+}
+.drive_div{
+     
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    align-items: center;
+    
+    padding: 9px;
+    border-radius: 15px;
+}
+
+.drive_image1{
+     display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.drive_content{
+    display: flex;
+
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    .drive_p1{
+        
+    font-size: larger;
+    position: relative;
+bottom: 30px;
+    }
+    .h4{
+    margin: 0;
+}
+.drive_button1{
+    border-radius: 7px;
+   position: relative;
+   top: 5px;
+   border: none;
+   border-color: black;
+   width:180px;
+   height: 40px;
+   background-color: #070707;
+   color: #e4e0e0;
+   display: inline;
+   
+}
+.drive_button1:hover{
+    background-color: #2a252593;
+}
+
+    .drive_image2{
+        width: 400px;
+        height: 399px;
+    }
+    .drive_h1{
+          font-size: 40px;
+    font-weight: 500;
+    color: black;
+    position: relative;
+    bottom: 50px;
+    
+    }
+    .drive_link{
+        position: relative;
+        top: 14px;
+    }
+    .drive_link1{
+         position: relative;
+    
+         border-color: #ffffff;
+         width: 220px;
+        
+    }
+
+
+                                  /*uber for business*/
+
+
+    .business{
+    padding-left: 60px;
+        padding-right: 60px;
+width: 1130px;
+}
+.business_div{
+     
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    align-items: center;
+    
+    padding: 9px;
+    border-radius: 15px;
+}
+.business_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.business_image1{
+     display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.img{
+    width: 200px;
+    height:150px;}
+
+    .business_p1{
+        
+    font-size: larger;
+    position: relative;
+bottom: 30px;
+    }
+    .h4{
+    margin: 0;
+}
+.business_button1{
+    border-radius: 7px;
+   position: relative;
+   top: 5px;
+   border: none;
+   border-color: black;
+   width:180px;
+   height: 40px;
+   background-color: #070707;
+   color: #e4e0e0;
+   
+}
+.business_button1:hover{
+    background-color: #2a252593;
+}
+
+    .business_image2{
+        width: 400px;
+        height: 399px;
+    }
+    .business_h1{
+          font-size: 40px;
+    font-weight: 500;
+    color: black;
+    position: relative;
+    bottom: 70px;
+    
+    }
+    .business_link{
+        position: relative;
+        top: 14px;
+    }
+.business_link1{
+     position: relative;
+    
+         border-color: #ffffff;
+         width: 180px;
+        
+}
+
+                                     /*annual prdct showcase*/
+
+    .annual{
+    padding-left: 60px;
+        padding-right: 60px;
+width: 1130px;
+}
+.annual_div{
+     
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    align-items: center;
+    
+    padding: 9px;
+    border-radius: 15px;
+}
+
+.annual_image1{
+     display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.annual_content{
+    display: flex;
+
+    justify-content: end;
+    flex-direction: column;
+}
+
+
+    .annual_p1{
+        
+    font-size: larger;
+    position: relative;
+bottom: 30px;
+    }
+    .h4{
+    margin: 0;
+}
+.annual_button1{
+    border-radius: 7px;
+   position: relative;
+   top: 5px;
+   border: none;
+   border-color: black;
+   width:180px;
+   height: 40px;
+   background-color: #070707;
+   color: #e4e0e0;
+   display: inline;
+   
+}
+.annual_button1:hover{
+    background-color: #2a252592;
+}
+
+    .annual_image2{
+        width: 400px;
+        height: 399px;
+    }
+    .annual_h1{
+          font-size: 40px;
+    font-weight: 500;
+    color: black;
+    position: relative;
+    bottom: 79px;
+    
+    }
+    .annual_link{
+        position: relative;
+        top: 14px;
+    }
+
+
+                                     /*renting out car*/
+
+     .renting{
+    padding-left: 60px;
+        padding-right: 60px;
+      width: 1130px;
+}
+.renting_div{
+     
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    align-items: center;
+    
+    padding: 9px;
+    border-radius: 15px;
+}
+.renting_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.renting_image1{
+     display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.renting_image2{
+    width: 200px;
+    height:150px;}
+
+    .renting_p1{
+        
+    font-size: larger;
+    position: relative;
+bottom: 30px;
+    }
+    .h4{
+    margin: 0;
+}
+.renting_button1{
+    border-radius: 7px;
+   position: relative;
+   top: 5px;
+   border: none;
+   border-color: black;
+   width:180px;
+   height: 40px;
+   background-color: #070707;
+   color: #e4e0e0;
+   
+}
+.renting_button1:hover{
+    background-color: #2a252593;
+}
+
+    .renting_image2{
+        width: 400px;
+        height: 399px;
+    }
+    .renting_h1{
+          font-size: 40px;
+    font-weight: 500;
+    color: black;
+    position: relative;
+    bottom: 60px;
+    
+    }
+    .renting_link{
+        position: relative;
+        top: 14px;
+        border: none;
+        border: transparent;
+        
+    }
+   *{
+    margin: 0;
+   }
+   body{
+    overflow-x: hidden;
+    
+   }
+   
